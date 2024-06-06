@@ -20,13 +20,13 @@ const App = () => {
           <Route path="/" element={<LandingPage />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
-          <Route
-            path="/dashboard"
+          <Route 
+            path="/dashboard" 
             element={
               <ProtectedRoute>
                 <Dashboard />
               </ProtectedRoute>
-            }
+            } 
           />
         </Routes>
         {!user && <Footer />}
