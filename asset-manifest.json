@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pakdrive/static/css/main.f0c43562.css",
-    "main.js": "/pakdrive/static/js/main.c867c43c.js",
+    "main.js": "/pakdrive/static/js/main.3c8eaa67.js",
     "static/media/man.png": "/pakdrive/static/media/man.2e81b023f2c57dfad42a.png",
     "static/media/bg.png": "/pakdrive/static/media/bg.e9eecb5b02ec428dd9a7.png",
     "static/media/f1.png": "/pakdrive/static/media/f1.103cc7dc75cf57276281.png",
@@ -10,10 +10,10 @@
     "static/media/f3.png": "/pakdrive/static/media/f3.ca8cf6350e7a6c925a15.png",
     "index.html": "/pakdrive/index.html",
     "main.f0c43562.css.map": "/pakdrive/static/css/main.f0c43562.css.map",
-    "main.c867c43c.js.map": "/pakdrive/static/js/main.c867c43c.js.map"
+    "main.3c8eaa67.js.map": "/pakdrive/static/js/main.3c8eaa67.js.map"
   },
   "entrypoints": [
     "static/css/main.f0c43562.css",
-    "static/js/main.c867c43c.js"
+    "static/js/main.3c8eaa67.js"
   ]
 }
