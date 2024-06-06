@@ -18,7 +18,7 @@
     "tailwindcss": "^3.4.3",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://pakdrive.github.io/pakdrive",
+  "homepage": "https://pakdrive.github.io/pakdrive/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
