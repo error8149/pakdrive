@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import LandingPage from './LandingPage';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -14,21 +14,23 @@ const App = () => {
 
   return (
     <div className='font-poppins overflow-x-hidden'>
-      {!user && <Header />}
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/login" element={<Login />} />
-        <Route 
-          path="/dashboard" 
-          element={
-            <ProtectedRoute>
-              <Dashboard />
-            </ProtectedRoute>
-          } 
-        />
-      </Routes>
-      {!user && <Footer />}
+      <Router basename="/pakdrive">
+        {!user && <Header />}
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
+          <Route
+            path="/dashboard"
+            element={
+              <ProtectedRoute>
+                <Dashboard />
+              </ProtectedRoute>
+            }
+          />
+        </Routes>
+        {!user && <Footer />}
+      </Router>
     </div>
   );
 };
